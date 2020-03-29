@@ -1,0 +1,10 @@
+{
+  "name": "NwicodeExample",
+  "description": "Example module from NWICODE CMS",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "system": {
+      }
+  }
+}

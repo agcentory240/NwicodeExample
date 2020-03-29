@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <nwicodeexample_application_edit>
+        <views>
+            <content class="application_view_customization_features_edit_tabbareditor" 
+					 template="application/customization/features/edit/tabbar_editor.phtml" />
+            <content_editor class="core_view_default" 
+							template="nwicodeexample/application/edit.phtml" />
+        </views>
+    </nwicodeexample_application_edit>
+</layout>

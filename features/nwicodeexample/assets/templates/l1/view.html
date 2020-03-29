@@ -1,0 +1,18 @@
+<ion-view sb-page-background class="nwicodeexample-view">
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-content class="nwicodeexample-view" sb-background-image overflow-scroll="true">
+	<ion-card>
+		<ion-card-header>
+			<ion-card-title>{{ ::'Title' | translate:'nwicodeexample'}}</ion-card-title>
+			<ion-card-subtitle>{{page_title}}</ion-card-subtitle>
+		</ion-card-header>
+
+		<ion-card-content>
+		<p><ion-text color="primary">{{ ::'Message' | translate:'nwicodeexample'}}:</ion-text></p>
+		<p><ion-text color="secondary">{{page_message}}</ion-text></p>
+		</ion-card-content>
+	</ion-card>
+    </ion-content>
+
+</ion-view>
+

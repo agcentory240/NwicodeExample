@@ -1,0 +1,28 @@
+<?php
+$option = $this->getOptionValue();
+$nwicodeexample_model = $option->getObject();
+$nwicodeexample_model->find($option->getId(), "value_id");
+$config = $nwicodeexample_model->getData();
+$nwicodeexample_form = new NwicodeExample_Form_Form();
+$nwicodeexample_form->setValueId($option->getId());
+$nwicodeexample_form->populate($config);
+?>
+<div class="nwicodeexample">
+    <div>
+        <h3 class="title-editor no-border-radius title-feature-indent"><?php echo __("Nwicode Example Settings")?></h3>
+    </div>
+	<div class="container-fluid margin-top">
+		<?php echo $nwicodeexample_form; ?>
+	</div>
+	
+</div>
+<script>
+            $('#nwicodeexample').submit(function() {
+                reload(this, this.action, true, function(data) {
+                    if(data.success) {
+                        page.reload();
+                    }
+                });
+                return false;
+            });
+</script>

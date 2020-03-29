@@ -1,0 +1,36 @@
+{
+    "name": "NwicodeExample",
+    "code": "nwicodeexample",
+    "version": "1.0.0",
+    "category": "integration",
+    "model": "NwicodeExample_Model_NwicodeExample",
+    "desktop_uri": "nwicodeexample/application/",
+    "routes": [
+        {
+            "root": true,
+            "state": "nwicodeexample-view",
+            "controller": "NwicodeExampleViewController",
+            "url": "nwicodeexample/mobile_view/index/value_id/:value_id",
+            "template": "view.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        }
+    ],
+    "layouts": [
+        1
+    ],
+    "icons": [
+        "icons/nwicodeexample-1.png",
+        "icons/nwicodeexample-2.png"
+    ],
+    "files": [
+        "js/controllers/nwicodeexample.js",
+        "js/factory/nwicodeexample.js",
+		"scss/nwicodeexample.scss"
+    ],
+    "compile": true,
+    "use_account": false,
+    "only_once": false
+}

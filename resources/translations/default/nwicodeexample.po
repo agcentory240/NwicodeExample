@@ -1,0 +1,57 @@
+"Project - Id - Version: 
+"
+"Report-Msgid-Bugs-To: 
+"
+"Last-Translator: 
+"
+"Language-Team: Nwicode
+"
+"MIME-Version: 1.0
+"
+"Content-Type: text/plain; charset=UTF-8
+"
+"Content-Transfer-Encoding: 8bit
+"
+"POT-Creation-Date: 2019-06-13T14:30:31+00:00
+"
+"PO-Revision-Date: 2019-06-13T14:30:31+00:00
+"
+"Language: 
+"
+
+# GMT 1581185568.465453
+msgctxt "nwicodeexample"
+msgid "Title"
+msgstr "Title"
+
+# GMT 1581185568.466453
+#, mobile
+msgctxt "nwicodeexample"
+msgid "Title"
+msgstr "Title"
+
+# GMT 1581185568.465453
+msgctxt "nwicodeexample"
+msgid "Message"
+msgstr "Message"
+
+# GMT 1581185568.466453
+#, mobile
+msgctxt "nwicodeexample"
+msgid "Message"
+msgstr "Message"
+
+# GMT 1581185568.465453
+msgctxt "nwicodeexample"
+msgid "Nwicode Example Settings"
+msgstr "Nwicode Example Settings"
+
+# GMT 1581185568.465453
+msgctxt "nwicodeexample"
+msgid "An error occurred during process. Please try again later."
+msgstr "An error occurred during process. Please try again later."
+
+# GMT 1581185568.465453
+msgctxt "nwicodeexample"
+msgid "Info successfully saved"
+msgstr "Info successfully saved"
